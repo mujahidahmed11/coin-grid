@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090a0f"><title>COIN GRID — Game Top-Up Store</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announcement">WELCOME TO COIN GRID <span>•</span> YOUR GAMING TOP-UP STORE <span>•</span> FAST ORDER SUPPORT</div>
+<header class="header">
+  <a class="brand" href="#home">
+    <svg viewBox="0 0 64 64" class="brand-icon" aria-label="COIN GRID logo"><path d="M32 3 58 18v28L32 61 6 46V18Z" fill="#11141c" stroke="#e7b84f" stroke-width="2.5"/><path d="M32 9 52 20v24L32 55 12 44V20Z" fill="none" stroke="#3bd6dc"/><path d="M39 21c-2-2-5-3-8-3-9 0-14 6-14 14s5 14 14 14c4 0 7-1 9-4l-5-5c-1 2-2 3-4 3-4 0-7-3-7-8s3-8 7-8c2 0 3 1 4 2Z" fill="#f2c963"/><path d="M38 25h10v6H38zm0 10h10v6H38z" fill="#42dce6"/></svg>
+    <span><b>COIN<span>GRID</span></b><small>LEVEL UP YOUR GAME</small></span>
+  </a>
+  <div class="search"><span>⌕</span><input id="search" placeholder="Search games, top-ups and more..."></div>
+  <div class="header-actions"><a href="#catalog">SHOP</a><a class="support" href="https://wa.me/8801842270356" target="_blank">WHATSAPP ↗</a><button class="mobile-menu" aria-label="Toggle navigation">☰</button></div>
+</header>
+<nav class="category-nav">
+  <a class="active" href="#games">POPULAR GAMES</a><a href="#topups">GAME TOP-UPS</a><a href="#subscriptions">SUBSCRIPTIONS</a><a href="#giftcards">GIFT CARDS</a><a href="#support">SUPPORT</a>
+</nav>
+<main id="home">
+<section class="hero">
+ <div class="hero-backdrop"></div><div class="hero-content">
+   <div class="eyebrow"><span></span> THE GAMING STORE FOR EVERY PLAYER</div>
+   <h1>YOUR GAME.<br><em>YOUR RULES.</em></h1>
+   <p>Top up your favourite games and get back to the action. Simple packages, clear prices and friendly support.</p>
+   <a class="gold-btn" href="#games">EXPLORE TOP-UPS <b>↗</b></a>
+   <div class="hero-proof"><span>✦ BDT PRICING</span><span>✦ EASY ORDERING</span><span>✦ LOCAL SUPPORT</span></div>
+ </div>
+ <div class="hero-art">
+   <div class="art-ring"></div><div class="art-ring ring2"></div>
+   <div class="coin-hero"><span>CG</span><small>COIN GRID</small></div>
+   <div class="art-label label-a">LEVEL UP <b>✦</b></div><div class="art-label label-b">GAME ON / 24-7</div>
+ </div>
+</section>
+
+<section class="wrap section" id="games">
+ <div class="section-title"><div><small>FIND YOUR NEXT TOP-UP</small><h2>POPULAR <em>GAMES</em></h2></div><a href="#catalog">VIEW ALL GAMES →</a></div>
+ <div class="game-shelf" id="gameShelf">
+  <button class="game-tile active" data-game="Free Fire"><span class="game-art fire"><b>FREE<br>FIRE</b><i>FF</i></span><span class="tile-caption"><b>FREE FIRE</b><small>DIAMONDS & MEMBERSHIPS</small></span><span class="tile-arrow">↗</span></button>
+  <button class="game-tile" data-game="PUBG Mobile"><span class="game-art pubg"><b>PUBG<br>MOBILE</b><i>UC</i></span><span class="tile-caption"><b>PUBG MOBILE</b><small>UC TOP-UP</small></span><span class="tile-arrow">↗</span></button>
+  <button class="game-tile" data-game="Mobile Legends"><span class="game-art legends"><b>MOBILE<br>LEGENDS</b><i>ML</i></span><span class="tile-caption"><b>MOBILE LEGENDS</b><small>DIAMONDS</small></span><span class="tile-arrow">↗</span></button>
+  <button class="game-tile" data-game="Valorant"><span class="game-art valorant"><b>VALORANT</b><i>V</i></span><span class="tile-caption"><b>VALORANT</b><small>VALORANT POINTS</small></span><span class="tile-arrow">↗</span></button>
+  <button class="game-tile" data-game="Other Games"><span class="game-art more"><b>MORE<br>GAMES</b><i>+</i></span><span class="tile-caption"><b>OTHER GAMES</b><small>ASK FOR AVAILABILITY</small></span><span class="tile-arrow">↗</span></button>
+ </div>
+</section>
+
+<section class="wrap section" id="topups">
+ <div class="section-title"><div><small>CHOOSE A PACKAGE</small><h2>FREE FIRE <em>TOP-UP</em></h2></div><span class="region-pill">BANGLADESH SERVER</span></div>
+ <div class="product-toolbar"><div class="tabs"><button class="tab active">PLAYER ID TOP-UP</button><button class="tab" id="membershipTab">MEMBERSHIPS</button></div><span>Prices in BDT (৳)</span></div>
+ <div class="product-grid" id="products">
+  <button class="product-card" data-package="25 Diamonds" data-price="20"><span class="product-symbol">◆</span><span class="product-name">25 Diamonds</span><strong>৳20</strong><small>FAST ORDER</small></button>
+  <button class="product-card" data-package="50 Diamonds" data-price="35"><span class="product-symbol">◆</span><span class="product-name">50 Diamonds</span><strong>৳35</strong><small>FAST ORDER</small></button>
+  <button class="product-card" data-package="115 Diamonds" data-price="76"><span class="product-symbol">◆</span><span class="product-name">115 Diamonds</span><strong>৳76</strong><small>POPULAR PACK</small></button>
+  <button class="product-card" data-package="240 Diamonds" data-price="150"><span class="product-symbol">◆</span><span class="product-name">240 Diamonds</span><strong>৳150</strong><small>FAST ORDER</small></button>
+  <button class="product-card" data-package="610 Diamonds" data-price="378"><span class="product-symbol">◆</span><span class="product-name">610 Diamonds</span><strong>৳378</strong><small>BEST VALUE</small></button>
+  <button class="product-card" data-package="1240 Diamonds" data-price="755"><span class="product-symbol">◆</span><span class="product-name">1240 Diamonds</span><strong>৳755</strong><small>FAST ORDER</small></button>
+  <button class="product-card" data-package="Weekly Membership" data-price="150"><span class="product-symbol">✦</span><span class="product-name">Weekly Membership</span><strong>৳150</strong><small>MEMBERSHIP</small></button>
+  <button class="product-card" data-package="Monthly Membership" data-price="755"><span class="product-symbol">✦</span><span class="product-name">Monthly Membership</span><strong>৳755</strong><small>MEMBERSHIP</small></button>
+ </div>
+ <div class="notice">Selected package: <b id="selectedPackage">Choose a package</b><span id="selectedPrice"></span></div>
+</section>
+
+<section class="wrap section category-shelf" id="catalog">
+ <div class="section-title"><div><small>EXPLORE THE STORE</small><h2>SHOP BY <em>CATEGORY</em></h2></div></div>
+ <div class="category-grid">
+  <a href="#games"><span class="cat-icon">🎮</span><b>IN-GAME TOP-UPS</b><small>Diamonds, UC, points and more</small><i>↗</i></a>
+  <a href="#subscriptions"><span class="cat-icon">✦</span><b>SUBSCRIPTIONS</b><small>Digital services and memberships</small><i>↗</i></a>
+  <a href="#giftcards"><span class="cat-icon">▣</span><b>GIFT CARDS</b><small>Digital codes and vouchers</small><i>↗</i></a>
+ </div>
+</section>
+<section class="wrap section mini-shelf" id="subscriptions"><div class="section-title"><div><small>MORE FOR YOUR DIGITAL LIFE</small><h2>SUBSCRIPTIONS & <em>EXTRAS</em></h2></div></div><div class="coming"><span>✦</span><div><b>MORE DIGITAL DEALS COMING SOON</b><small>Contact us to ask about availability and current prices.</small></div><a href="https://wa.me/8801842270356" target="_blank">ASK US ↗</a></div></section>
+<section class="wrap section mini-shelf" id="giftcards"><div class="section-title"><div><small>GIFT SOMETHING GOOD</small><h2>GIFT <em>CARDS</em></h2></div></div><div class="coming"><span>▣</span><div><b>GIFT CARDS COMING SOON</b><small>Message COIN GRID for a custom request.</small></div><a href="https://wa.me/8801842270356" target="_blank">ASK US ↗</a></div></section>
+
+<section class="order-area" id="support"><div class="wrap order-layout">
+ <div><div class="eyebrow">NEED A TOP-UP?</div><h2>ORDER IN<br><em>THREE STEPS.</em></h2><p>Choose your package, share your Player ID and send your order request to COIN GRID on WhatsApp.</p><div class="payment-strip"><small>PAYMENT METHODS</small><div><b class="bk">bKash</b><b class="ng">Nagad</b><b class="rk">Rocket</b></div></div></div>
+ <form class="order-form" id="orderForm"><div class="form-heading">YOUR ORDER DETAILS <span>● SECURE REQUEST</span></div>
+ <label>Game<select id="gameSelect"><option>Free Fire</option><option>PUBG Mobile</option><option>Mobile Legends</option><option>Valorant</option><option>Other Games</option></select></label>
+ <div class="two"><label>Player ID / UID<input id="uid" required placeholder="Enter player ID"></label><label>Server<input id="server" placeholder="Bangladesh"></label></div>
+ <label>Package<input id="packageInput" required placeholder="Choose a package above"></label>
+ <div class="two"><label>Payment method<select id="payment"><option>bKash</option><option>Nagad</option><option>Rocket</option></select></label><label>Your phone number<input id="phone" required placeholder="01XXXXXXXXX"></label></div>
+ <button class="gold-btn submit" type="submit">SEND ORDER ON WHATSAPP <b>↗</b></button><small class="fineprint">Orders are confirmed manually by our team. Payment is not collected by this demo website.</small>
+ </form>
+</div></section>
+</main>
+<footer><div class="wrap footer"><a class="brand" href="#home"><svg viewBox="0 0 64 64" class="brand-icon" aria-label="COIN GRID logo"><path d="M32 3 58 18v28L32 61 6 46V18Z" fill="#11141c" stroke="#e7b84f" stroke-width="2.5"/><path d="M39 21c-2-2-5-3-8-3-9 0-14 6-14 14s5 14 14 14c4 0 7-1 9-4l-5-5c-1 2-2 3-4 3-4 0-7-3-7-8s3-8 7-8c2 0 3 1 4 2Z" fill="#f2c963"/></svg><span><b>COIN<span>GRID</span></b><small>LEVEL UP YOUR GAME</small></span></a><p>Gaming top-ups made simple.</p><div><a href="https://wa.me/8801842270356" target="_blank">WhatsApp support ↗</a><small>© <span id="year"></span> COIN GRID</small></div></div></footer>
+<script src="app.js"></script>
+</body></html>
